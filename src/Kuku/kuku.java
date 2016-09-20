@@ -16,13 +16,18 @@ public class kuku {
 					hyoji = " " + hyoji;
 					
 				}
-				System.out.print(hyoji + " ");
+				if(k2 == 9 ){
+					System.out.println(hyoji);
+				}
+				else{
+					System.out.print(hyoji + " ");
+					
+				}
+					
 				k2++;
 			}
-			System.out.println();
 			k1++;
 		}
-		
 		
 	}
 }
